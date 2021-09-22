@@ -7,7 +7,7 @@ function App() {
 
   const [pageCount, setpageCount] = useState(0);
 
-  let limit = 9;
+  let limit = 6 ;
 
   useEffect(() => {
     const getComments = async () => {
